@@ -17,17 +17,19 @@ img {
 
 .indexul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    
+
     color: black;
 }
 
-.indexil {float: left;
-    padding: 16px;
-    margin-left: 160px;
-    margin-right: 160px;
-    background-color: seagreen;
-    opacity: 0.7;
+.indexil {
+    display: inline-flex;
+    flex: auto;
+    align-items: center;
+    justify-content: center;
+    
+    
 }
 
 h2 {color: white;
