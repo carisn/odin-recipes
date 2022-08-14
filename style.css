@@ -18,9 +18,10 @@ img {
 .indexul {
     list-style-type: none;
     display: flex;
-    
-
-    color: black;
+    background-color: seagreen;
+    opacity: 0.6;
+    padding: 15px;
+    font-size: 20px;
 }
 
 .indexil {
@@ -28,9 +29,14 @@ img {
     flex: auto;
     align-items: center;
     justify-content: center;
-    
-    
 }
+
+a:link {color: white;
+        }
+
+a:visited {color: white;
+            text-decoration: underline;
+            }
 
 h2 {color: white;
     background-color: seagreen;
